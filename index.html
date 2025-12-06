@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO -->
+    <title>In Common NYC - Breakfast, Brunch & Lunch Café in Hudson Yards</title>
+    <meta name="description" content="In Common NYC is a charming Australian-style café in Hudson Yards serving specialty coffee, healthy breakfast, and delicious lunch. Open daily.">
+    <meta name="keywords" content="In Common NYC, Hudson Yards Cafe, Breakfast Hudson Yards, Brunch NYC, Australian Cafe NYC, Best Coffee Hudson Yards, Lunch Hudson Yards">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://incommonnyc.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant.restaurant">
+    <meta property="og:url" content="https://incommonnyc.com/">
+    <meta property="og:title" content="In Common NYC - Breakfast, Brunch & Lunch Café">
+    <meta property="og:description" content="Experience the best Australian café culture in NYC. Specialty coffee, hearty breakfast, and fresh lunch in the heart of Hudson Yards.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://incommonnyc.com/">
+    <meta property="twitter:title" content="In Common NYC - Breakfast, Brunch & Lunch Café">
+    <meta property="twitter:description" content="Experience the best Australian café culture in NYC. Specialty coffee, hearty breakfast, and fresh lunch in the heart of Hudson Yards.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format&fit=crop">
+    
+    <!-- Google Fonts (Preconnected) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Elfsight Platform Script (Defer for Performance) -->
+    <script src="https://elfsightcdn.com/platform.js" defer></script>
+
+    <!-- Schema Markup (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "In Common NYC",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200",
+      "@id": "https://incommonnyc.com",
+      "url": "https://incommonnyc.com",
+      "telephone": "",
+      "servesCuisine": ["Australian", "Cafe", "Breakfast", "Brunch", "Lunch"],
+      "priceRange": "$$",
+      "menu": "https://order.toasttab.com/online/in-common-nyc-a-breakfast-brunch-restaurant-441-9th-avenue",
+      "acceptsReservations": "False",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "441 9th Ave Suite 101",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10001",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7533,
+        "longitude": -73.9970
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:30",
+          "closes": "15:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "08:30",
+          "closes": "15:00"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#FAF6F4',
+              'soft-tan': '#D8C3B8',
+              'accent-clay': '#C27A6A',
+              'accent-clay-dark': '#A05C4D',
+              'text-dark': '#2D2A26',
+              'text-light': '#6B655F',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            container: {
+              center: true,
+              padding: '1.5rem',
+              screens: {
+                sm: '640px',
+                md: '768px',
+                lg: '1024px',
+                xl: '1280px',
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 100px; /* Offset for fixed navbar */
+      }
+      body {
+        background-color: #FAF6F4;
+        color: #2D2A26;
+      }
+      /* Attempt to override Elfsight slider arrows to hide them if they appear */
+      .eapps-instagram-feed-slider-arrow {
+        display: none !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.6"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
